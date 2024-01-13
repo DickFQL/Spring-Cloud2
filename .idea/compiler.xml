@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server_order" />
+        <module name="eurakaserver" />
+        <module name="cloud_beans" />
+        <module name="server_user01" />
+        <module name="server_eureka01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="eurakaserver" target="1.8" />
+      <module name="server_eureka" target="1.8" />
+      <module name="server_eureke" target="1.8" />
+      <module name="server_order02" target="17" />
+      <module name="server_order03" target="1.8" />
+      <module name="server_user" target="17" />
+      <module name="server_user02" target="17" />
+      <module name="server_user2" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud_beans" options="-parameters" />
+      <module name="server_eureka" options="-parameters" />
+      <module name="server_eureka01" options="-parameters" />
+      <module name="server_order" options="-parameters" />
+      <module name="server_user01" options="-parameters" />
+    </option>
+  </component>
+</project>
